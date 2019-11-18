@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app = "Wapp">
+
+  <head>
+      <meta charset="UTF-8">
+      <link rel = "stylesheet" type = "text/css" href = "all.css">
+      <title>WARD APPLICATION</title>
+
+  </head>
+
+  <body>
+      <h1>MY WARD</h1>
+
+      <center>
+          <img src = "C:\Users\Lavanya\Documents\GitHub\DMBS-project\images\grp1.png" padding : 1px ><br>
+      </center>
+      <div ng-controller ='Wctrl' >
+              <p class = "c1 ">WELCOME TO THE WARD APPLICATION</p>
+              <p class = "c2" >SELECT USER TYPE</p>
+      </div>
+      <center><div class="but">
+
+          <button href = "#!AdminEvent" >LOGIN AS ADMIN</button>
+          <button href = "#!VoterEvent">LOGIN AS VOTER</button>
+          <div ng-view></div>
+      </div></center>
+    <!-- <div class = "fragmentWrapper" data-ng-view data-ng-controller = "HomeFragmentController">
+        <button href = "#!AdminEvent" >LOGIN AS ADMIN</button>
+        <button href = "#!VoterEvent">LOGIN AS VOTER</button></div> -->
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.js" ></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.js"></script>
+    <script src = "https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src = "script.js"></script>
+    <script src = "admin.html"></script>
+
+    </body>
+
+</html>

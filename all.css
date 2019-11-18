@@ -1,0 +1,32 @@
+h1{
+  height : 100px;
+  color : white;
+  background-color : deepskyblue;
+  text-align : center;
+  font-size : 60px;
+  padding-top : 5%;
+  margin-top: 0px;
+}
+p.c1 {
+  height : 30px;
+  color : dodgerblue;
+  font-size: 30px;
+  text-align : center;
+}
+p.c2 {
+  height : 20px;
+  color : dodgerblue;
+  font-size: 20px;
+  text-align : center;
+}
+
+.but button{
+  border-radius: 5px;
+  padding: 10px;
+  border-color: #6495ed;
+  background-color: #f8f8ff;
+  font-weight: bold;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+}
+ 

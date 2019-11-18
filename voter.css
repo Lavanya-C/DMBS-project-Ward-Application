@@ -1,0 +1,18 @@
+h2{
+  color : white;
+  background-color: deepskyblue;
+  text-align : center;
+
+}
+
+div.V1{
+  text-align : center;
+  color : dodgerblue;
+  width: 320px;
+  padding: 10px;
+  margin: 0;
+  background-color: white;
+  border : 3px;
+  border-radius : 2px;
+  border-color: dodgerblue;
+}
