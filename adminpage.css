@@ -1,0 +1,45 @@
+/* *{outline:1px solid red;} */
+
+h1{
+    font-size : 60px;
+    padding :10px;
+    background-color : #6495ed;
+    color : white;
+    text-align : center;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    color : purple;
+    font-weight: bold;
+}
+.C1{
+    height : auto;
+    width : auto;
+    padding :0px 10px 0px 10px;
+
+}
+form{
+    padding-bottom : 5px;
+    border-bottom : 2px solid;
+    border-color : dodgerblue;
+}
+.C2{
+    border : 2px groove ;
+    margin : auto;
+    width : 1500px;
+    height: 480px;
+
+}
+.but{
+    font-size : 20px;
+    border-radius: 5px;
+    padding: 5px;
+    color : #6495ed;
+    border-color : #6495ed;
+    background-color : #f8f8ff;
+    font-weight : bold;
+    width : 200px;
+    margin : 10px 5px 10px 5px;
+    cursor : pointer;
+}
