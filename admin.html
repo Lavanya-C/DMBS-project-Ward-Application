@@ -8,26 +8,21 @@
 <body ng-app = 'Wapp'>
     <h1>MY WARD</h1>
     <center>
-        <img src = "C:\Users\Lavanya\Documents\GitHub\DMBS-project\images\grp1.png" padding : 1px ><br>
+        <img src = "C:\Users\Lavanya\Documents\GitHub\DMBS-project\images\grp1.png"><br>
     </center>
-  <div class = "A1"  ng-controller = 'AdminCtrl'>
-    <h2>Admin Login</h2>
-    <form>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    Admin ID : <input type = "email" ng-model = "adminid"/><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <span style="color:red" font-size:10px" ng-show="myForm.user.$dirty && myForm.user.$invalid">
-       <span ng-show="myForm.user.$error.required">User email-id is required</span><br><br>
-        </span>
-    Ward Number : <input type = "text" ng-model = "wid"/><br><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    Password : <input type = "password" ng-model = "password"/><br><br>
-    <input type = "submit" ng-disabled="myForm.user.$dirty && myForm.user.$invalid" value = "Submit"/>
-  </form>
-  </div>
+        <div class = "A1"  ng-controller = 'AdminCtrl'>
+            <h2>Admin Login</h2>
+            <form>
+                <span style  = "margin-left : 34px">Admin ID :</span>
+                <input type = "email" ng-model = "adminid"/><br>
+                <span class="msg" ng-show="myForm.user.$dirty && myForm.user.$invalid">
+                    <span ng-show="myForm.user.$error.required">User email-id is required</span><br><br>
+                </span>
+                <span style = "margin-left:2px">Ward Number :</span> <input type = "text" ng-model = "wid"/><br><br>
+                <span style = "margin-left : 40px">Password :</span> <input type = "password" ng-model = "password"/><br><br>
+                <input class = "but" type = "submit" ng-disabled = "myForm.user.$dirty && myForm.user.$invalid" value = "Submit"/>
+            </form>
+        </div>
   <script src = "script.js"></script>
   <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
   <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.js" ></script>

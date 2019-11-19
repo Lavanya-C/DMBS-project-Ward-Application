@@ -1,4 +1,14 @@
+h1{
+  height : 100px;
+  color : white;
+  background-color : deepskyblue;
+  text-align : center;
+  font-size : 60px;
+  padding-top : 5%;
+  margin-top: 0px;
+}
 h2{
+    align : center;
   color : white;
   background-color: deepskyblue;
   text-align : center;
@@ -7,14 +17,32 @@ h2{
 }
 
 div.A1{
-  text-align : center;
-  color : dodgerblue;
-  font-size: : 20px;
-  width: 320px;
-  padding: 10px;
-  margin: 0;
-  background-color: white;
-  border : 3px;
-  border-radius : 2px;
-  border-color: dodgerblue;
+      color : dodgerblue;
+      font-size: 20px;
+      width: 350px;
+      padding: 10px;
+      margin: auto;
+      background-color: white;
+      border : 3px;
+      border-radius : 2px;
+      border-color: dodgerblue;
+}
+
+.msg {
+    color: red;
+    font-size: 15px;
+    margin-left: 136px;
+}
+
+.but {
+  border-radius: 20px;
+  width: 70%;
+  height: 40px;
+  border : 10px;
+  color : white;
+  background-color : royalblue; ;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 50px;
+  font-size: 15px;
 }
