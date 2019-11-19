@@ -1,11 +1,9 @@
 h1{
-  height : 100px;
   color : white;
   background-color : deepskyblue;
   text-align : center;
   font-size : 60px;
-  padding-top : 5%;
-  margin-top: 0px;
+  padding: 50px 0px 50px 0px;
 }
 h2{
     height : auto;
