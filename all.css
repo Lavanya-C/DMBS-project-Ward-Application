@@ -7,13 +7,13 @@ h1{
   padding-top : 5%;
   margin-top: 0px;
 }
-p.c1 {
+.c1 {
   height : 30px;
   color : dodgerblue;
   font-size: 30px;
   text-align : center;
 }
-p.c2 {
+.c2 {
   height : 20px;
   color : dodgerblue;
   font-size: 20px;
@@ -29,4 +29,3 @@ p.c2 {
   margin: 0px 10px 0px 10px;
   cursor: pointer;
 }
- 
