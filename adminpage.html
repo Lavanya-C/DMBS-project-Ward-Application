@@ -13,58 +13,58 @@
                     <button class = "but" onclick="document.getElementById('popup').style.display='block'">Insert Candidate</button>
                     <div id="popup">
                        Enter Candidate Details<br><br>
-                       <form class = "F1">
-                            <span style = "margin : 20px 60px 20px 0px ">Candidate Id : </span><input type = "text" ><br>
-                            <span style = "margin : 20px 29px 20px 0px">Candidate Name :</span> <input type = "text" ><br>
-                            <span style = "margin : 20px 122px 20px 0px">Status :</span><input type = "text"><br>
-                            <span style = "margin : 20px 5px 20px 0px">Years of Experience :</span><input type = "text"><br>
-                            <span style = "margin : 20px 90px 20px 0px">Efficiency :</span><input type = "text"><br>
-                            <span style = "margin : 20px 105px 20px 0px">Party Id :</span><input type = "text"><br><br>
+                       <form class = "F1" action="candidateinsert.php" method="post">
+                            <span style = "margin : 20px 60px 20px 0px ">Candidate Id : </span><input type = "text" name="cid" ><br>
+                            <span style = "margin : 20px 29px 20px 0px">Candidate Name :</span> <input type = "text" name="cname" ><br>
+                            <span style = "margin : 20px 122px 20px 0px">Status :</span><input type = "text" name="status"><br>
+                            <span style = "margin : 20px 5px 20px 0px">Years of Experience :</span><input type = "text" name="exp"><br>
+                            <span style = "margin : 20px 90px 20px 0px">Efficiency :</span><input type = "text" name="eff"><br>
+                            <span style = "margin : 20px 105px 20px 0px">Party Id :</span><input type = "text" name="pid"><br><br>
                             <button class= "but1" type="submit">Submit</button>
                             <button class = "but1" type = "reset" >Reset</button>
-                           <button class ="but1" onclick="document.getElementById('popup').style.display='none'">Cancel</button>
-                        </form>
+                          <!-- <button class ="but1" onclick="document.getElementById('popup').style.display='none'">Cancel</button>
+                        </form>-->
                     </div>
                     <!-- Button2 -->
                      <button class = "but" onclick="document.getElementById('popup1').style.display='block'">Insert Voter </button>
                      <div id="popup1">
                         Enter Voter Details<br><br>
-                        <form class = "F1">
-                             <span style = "margin : 20px 80px 20px 0px ">Voter Id : </span><input type = "text" ><br>
-                             <span style = "margin : 20px 100px 20px 0px"> Name :</span> <input type = "text" ><br>
-                             <span style = "margin : 20px 122px 20px 0px">Age :</span><input type = "text"><br>
-                             <span style = "margin : 20px 38px 20px 0px">Date Of Birth :</span><input type = "text"><br>
-                             <span style = "margin : 20px 80px 20px 0px">Ward ID :</span><input type = "text"><br>
-                             <span style = "margin : 20px 85px 20px 0px">Party Id :</span><input type = "text"><br><br>
+                        <form class = "F1" action="voterinsert.php" method="post">
+                             <span style = "margin : 20px 80px 20px 0px ">Voter Id : </span><input type = "text" name="vid" ><br>
+                             <span style = "margin : 20px 100px 20px 0px"> Name :</span> <input type = "text" name="vname" ><br>
+                             <span style = "margin : 20px 122px 20px 0px">Age :</span><input type = "text" name="age"><br>
+                             <span style = "margin : 20px 38px 20px 0px">Date Of Birth :</span><input type = "text" name="dob"><br>
+                             <span style = "margin : 20px 80px 20px 0px">Ward ID :</span><input type = "text"name="wid"><br>
+                             <span style = "margin : 20px 85px 20px 0px">Party Id :</span><input type = "text" name="pid"><br><br>
                              <button class= "but1" type="submit">Submit</button>
                              <button class = "but1" type = "reset" >Reset</button>
-                            <button class ="but1" onclick="document.getElementById('popup1').style.display='none'">Cancel</button>
-                         </form>
+                           <!-- <button class ="but1" onclick="document.getElementById('popup1').style.display='none'">Cancel</button>
+                         </form>-->
                      </div>
                      <!-- Button3 -->
                      <button class = "but" onclick="document.getElementById('popup2').style.display='block'">Insert Ward </button>
                      <div id="popup2">
                         Enter Ward Details<br><br>
-                        <form class = "F1">
-                             <span style = "margin : 20px 90px 20px 0px ">Ward Id : </span><input type = "text" ><br>
-                             <span style = "margin : 20px 58px 20px 0px">Ward Name :</span> <input type = "text" ><br>
-                             <span style = "margin : 20px 8px 20px 0px">Number Of People :</span><input type = "text"><br>
-                             <span style = "margin : 20px 38px 20px 0px">Number of Poll :</span><input type = "text"><br>
-                             <span style = "margin : 20px 10px 20px 0px">Number of Houses :</span><input type = "text"><br>
-                             <span style = "margin : 20px 25px 20px 0px">Number of Parks:</span><input type = "text"><br>
-                             <span style = "margin : 20px 20px 20px 0px">Number of Streets:</span><input type = "text"><br>
-                             <span style = "margin : 20px 10px 20px 0px">Number os Schools :</span><input type = "text"><br><br>
+                        <form class = "F1" action="wardinsert.php" method="post">
+                             <span style = "margin : 20px 90px 20px 0px ">Ward Id : </span><input type = "text" name="wid" ><br>
+                             <span style = "margin : 20px 58px 20px 0px">Ward Name :</span> <input type = "text" name="wname" ><br>
+                             <span style = "margin : 20px 8px 20px 0px">Number Of People :</span><input type = "text" name="nop"><br>
+                             <span style = "margin : 20px 38px 20px 0px">Number of Poll :</span><input type = "text" name="nopl"><br>
+                             <span style = "margin : 20px 10px 20px 0px">Number of Houses :</span><input type = "text" name="noh"><br>
+                             <span style = "margin : 20px 25px 20px 0px">Number of Parks:</span><input type = "text" name="nopks"><br>
+                             <span style = "margin : 20px 20px 20px 0px">Number of Streets:</span><input type = "text" name="nostr"><br>
+                             <span style = "margin : 20px 10px 20px 0px">Number os Schools :</span><input type = "text" name="noskl"><br><br>
                              <button class= "but1" type="submit">Submit</button>
-                             <button class = "but1" type = "reset" >Reset</button>
-                            <button class ="but1" onclick="document.getElementById('popup2').style.display='none'">Cancel</button>
+                             <!-- <button class = "but1" type = "reset" >Reset</button>
+                            <button class ="but1" onclick="document.getElementById('popup2').style.display='none'">Cancel</button> -->
                          </form>
                      </div>
                      <!-- Button4 -->
                      <button class = "but" onclick="document.getElementById('popup6').style.display='block'">Insert Party </button>
                      <div id="popup6">
                         Enter Party Details<br><br>
-                        <form class = "F1">
-                             <span style = "margin : 20px 142px 20px 0px ">Party Id : </span><input type = "text" ><br>
+                        <form class = "F1" action="partyinsert.php" method="post">
+                             <span style = "margin : 20px 142px 20px 0px ">Party Id : </span><input type = "text" name="pid" ><br>
                              <span style = "margin : 20px 110px 20px 0px"> Party Name :</span> <input type = "text" ><br>
                              <span style = "margin : 20px 19px 20px 0px">Number of Candidates :</span><input type = "text"><br>
                              <span style = "margin : 20px 160px 20px 0px">Status :</span><input type = "text"><br>
@@ -114,13 +114,7 @@
                            Enter Ward Details to be Update it<br><br>
                            <form class = "F1">
                                 <span style = "margin : 20px 90px 20px 0px ">Ward Id : </span><input type = "text" ><br>
-                                <span style = "margin : 20px 58px 20px 0px">Ward Name :</span> <input type = "text" ><br>
-                                <span style = "margin : 20px 8px 20px 0px">Number Of People :</span><input type = "text"><br>
-                                <span style = "margin : 20px 38px 20px 0px">Number of Poll :</span><input type = "text"><br>
-                                <span style = "margin : 20px 10px 20px 0px">Number of Houses :</span><input type = "text"><br>
-                                <span style = "margin : 20px 25px 20px 0px">Number of Parks:</span><input type = "text"><br>
-                                <span style = "margin : 20px 20px 20px 0px">Number of Streets:</span><input type = "text"><br>
-                                <span style = "margin : 20px 10px 20px 0px">Number os Schools :</span><input type = "text"><br><br>
+                                
                                 <button class= "but1" type="submit">Submit</button>
                                 <button class = "but1" type = "reset" >Reset</button>
                                <button class ="but1" onclick="document.getElementById('popup3').style.display='none'">Cancel</button>
