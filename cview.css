@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: # #6495ed;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: left;
+}
+th {
+    background-color: #6495ed;
+    color: white;
+    font-size : 20px;
+}
+tr:nth-child(even) {
+    background-color: #f8f8ff
+}
+.but1{
+    font-size : 15px;
+    border-radius: 5px;
+    padding: 2px;
+    color : #6495ed;
+    border-color : #6495ed;
+    background-color : #f8f8ff;
+    font-weight : bold;
+    width : 100px;
+    margin : 20px 40px 20px 40px;
+    cursor : pointer;
+}

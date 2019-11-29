@@ -25,16 +25,16 @@ h1{
     border-color : #6495ed;
     background-color : #f8f8ff;
     font-weight : bold;
-    width : 240px;
-    margin : 20px 40px 20px 40px;
+    width : 200px;
+    margin : 20px 0px 20px 40px;
     cursor : pointer;
 }
 #vpopup1{
     display:none;
     background:#efefef;
     border:1px solid  #6495ed ;
-    width:600px;
-    height:300px;
+    width:450px;
+    height:250px;
     font-size : 20px;
     border-radius: 5px;
     padding: 5px;
@@ -43,4 +43,100 @@ h1{
     background-color : #f8f8ff;
     font-weight : bold;
     cursor : pointer;
- }
+}
+#vpopup2{
+    display:none;
+    background:#efefef;
+    border:1px solid  #6495ed ;
+    width:450px;
+    height:250px;
+    font-size : 20px;
+    border-radius: 5px;
+    padding: 5px;
+    color : #6495ed;
+    border-color : #6495ed;
+    background-color : #f8f8ff;
+    font-weight : bold;
+    cursor : pointer;
+}
+#vpopup3{
+    display:none;
+    background:#efefef;
+    border:1px solid  #6495ed ;
+    width:450px;
+    height:260px;
+    font-size : 20px;
+    border-radius: 5px;
+    padding: 5px;
+    color : #6495ed;
+    border-color : #6495ed;
+    background-color : #f8f8ff;
+    font-weight : bold;
+    cursor : pointer;
+}
+#vpopup4{
+    display:none;
+    background:#efefef;
+    border:1px solid  #6495ed ;
+    width:500px;
+    height:200px;
+    font-size : 20px;
+    border-radius: 5px;
+    padding: 5px;
+    color : #6495ed;
+    border-color : #6495ed;
+    background-color : #f8f8ff;
+    font-weight : bold;
+    cursor : pointer;
+}
+#vpopup5{
+    display:none;
+    font-size : 20px;
+    border-radius: 5px;
+    padding: 5px;
+    color : #6495ed;
+    font-weight : bold;
+    cursor : pointer;
+}
+#vpopup6{
+    display:none;
+    font-size : 20px;
+    border-radius: 5px;
+    padding: 5px;
+    color : #6495ed;
+    font-weight : bold;
+    cursor : pointer;
+}
+#vpopup7{
+    display:none;
+    /* border:1px solid  #6495ed ; */
+    width:auto;
+    height:auto;
+    font-size : 20px;
+    border-radius: 5px;
+    padding: 5px;
+    color : #6495ed;
+    /* border-color : #6495ed; */
+    /* background-color : #f8f8ff; */
+    font-weight : bold;
+    cursor : pointer;
+}
+#vpopup8{
+    display:none;
+    font-size : 20px;
+    border-radius: 5px;
+    padding: 5px;
+    color : #6495ed;
+    font-weight : bold;
+    cursor : pointer;
+}
+.T1{
+    color : #4A235A ;
+    font-size : 18px;
+}
+.X1{
+    border-collapse : collapse;
+}
+table,tr,th{
+    border : 1px groove #6495ed;
+}

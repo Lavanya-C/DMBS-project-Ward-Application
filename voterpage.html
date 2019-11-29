@@ -7,20 +7,136 @@
 
     <body>
         <h1>VOTER'S VIEW</h1>
-        <center>
+            <!-- View1 -->
             <div class = "V1" >
+                <p class = "T1"> 1)Are you a member of this ward??<br>&nbsp;&nbsp;
+                    Do you want to register for a party??<br>&nbsp;&nbsp;
+                    You require to be a member of a ward for this registration<br>&nbsp;&nbsp;
+                    Send a Request to Admin.<br>&nbsp;&nbsp;
+                    If so  click the button below.<br></p>
                 <!-- Button1 -->
-                <button class = "but" onclick="document.getElementById('vpopup1').style.display='block'">View Candidates</button>
-                <div id="vpopup1">
-                    <form>
+                <button class = "but" onclick="document.getElementById('vpopup1').style.display='block'">Register</button>
+                <center>
+                    <div id="vpopup1">
+                    <center>
+                        <p class = "T1">Enter the Details Correctly</p>
+                        <form>
+                        <span style = "margin : 20px 85px 20px 0px ">Ward Id : </span><input type = "text" name = "wid" ><br><br>
+                        <span style = "margin : 20px 85px 20px 0px ">Voter Id : </span><input type = "text" name = "vid" ><br><br>
+                        <span style = "margin : 20px 85px 20px 0px ">Party Id : </span><input type = "text" name = "pyid" ><br><br>
 
                         <button class ="but1" onclick="document.getElementById('vpopup1').style.display='none'">Cancel</button>
-                    </form>
+                        </form>
+                    </center>
                 </div>
+            </center>
             </div>
-        </center>
+            <!-- View2 -->
+            <div class = "V1" >
+                <p class = "T1"> 2)Are you a member of this ward??<br>&nbsp;&nbsp;
+                    Do you want to register for as a candidate??<br>&nbsp;&nbsp;
+                    You require to be a member of a ward for this registration.<br>&nbsp;&nbsp;
+                    Send a Request to Admin.<br>&nbsp;&nbsp;
+                    If so  click the button below.<br></p>
+                <!-- Button2 -->
+                <button class = "but" onclick="document.getElementById('vpopup2').style.display='block'">Register</button>
+                <center>
+                    <div id="vpopup2">
+                    <center>
+                        <p class = "T1">Enter the Details Correctly</p>
+                        <form>
+                        <span style = "margin : 20px 85px 20px 0px ">Ward Id : </span><input type = "text" name = "wid" ><br><br>
+                        <span style = "margin : 20px 85px 20px 0px ">Voter Id : </span><input type = "text" name = "vid" ><br><br>
+                        <span style = "margin : 20px 85px 20px 0px ">Party Id : </span><input type = "text" name = "pyid" ><br><br>
 
+                        <button class ="but1" onclick="document.getElementById('vpopup2').style.display='none'">Cancel</button>
+                        </form>
+                    </center>
+                    </div>
+                </center>
+            </div>
+            <!-- View3 -->
+            <div class = "V1" >
+                <p class = "T1"> 3)Are you a Mayor/Active Candidate of this ward??<br>&nbsp;&nbsp;
+                    Do you want to register for as a Bill??<br>&nbsp;&nbsp;
+                    Send a Request to Admin.<br>&nbsp;&nbsp;
+                    You can register only a unaided bill.<br>&nbsp;&nbsp;
+                    If so  click the button below.<br></p>
+                <!-- Button3 -->
+                <button class = "but" onclick="document.getElementById('vpopup3').style.display='block'">Register</button>
+                <center>
+                    <div id="vpopup3">
+                    <center>
+                        <p class = "T1">Enter the Details Correctly</p>
+                        <form>
+                        <span style = "margin : 20px 95px 20px 0px ">Ward Id : </span><input type = "text" name = "wid" ><br>
+                        <span style = "margin : 20px 95px 20px 0px ">Voter Id : </span><input type = "text" name = "vid" ><br>
+                        <span style = "margin : 20px 115px 20px 0px ">Bill Id : </span><input type = "text" name = "bid" ><br>
+                        <span style = "margin : 20px 85px 20px 0px ">Bill Name : </span><input type = "text" name = "bname" ><br>
+                        <span style = "margin : 20px 110px 20px 0px ">Bill On : </span><input type = "text" name = "bon" ><br>
+                        <span style = "margin : 20px 80px 20px 0px ">Spent Amt : </span><input type = "text" name = "bspn" ><br>
+                        <button class ="but1" onclick="document.getElementById('vpopup3').style.display='none'">Cancel</button>
+                        </form>
+                    </center>
+                    </div>
+                </center>
+            </div>
+            <!-- View4 -->
+            <div class = "V1" >
+                <p class = "T1"> 4)Are you a Member of this ward??<br>&nbsp;&nbsp;
+                    Do you want to register your house??<br>&nbsp;&nbsp;
+                    Send a Request to Admin.<br>&nbsp;&nbsp;
+                    If so  click the button below.<br></p>
+                <!-- Button4 -->
+                <button class = "but" onclick="document.getElementById('vpopup4').style.display='block'">Register</button>
+                <center>
+                    <div id="vpopup4">
+                    <center>
+                        <p class = "T1">Enter the Details Correctly</p>
+                        <form>
+                        <span style = "margin : 20px 95px 20px 0px ">Ward Id : </span><input type = "text" name = "wid" ><br>
+                        <span style = "margin : 20px 95px 20px 0px ">Voter Id : </span><input type = "text" name = "vid" ><br>
+                        <span style = "margin : 20px 45px 20px 0px ">No. of Houses : </span><input type = "text" name = "whcnt" ><br>
+                        <button class ="but1" onclick="document.getElementById('vpopup4').style.display='none'">Cancel</button>
+                        </form>
+                    </center>
+                    </div>
+                </center>
+            </div>
+            <!-- View5 -->
+            <div class = "V1" >
+                <p class = "T1"> 5)View Your Ward Details<br></p>
+                <!-- Button5 -->
+                <button class = "but" type = "button" onclick="window.location.href='wview.php'">View</button>
 
+            </div>
+            <!-- View6 -->
+            <div class = "V1" >
+                <p class = "T1"> 6)View Your Welfare Details<br></p>
+                <!-- Button6 -->
+                <button class = "but" type = "button" onclick="window.location.href='bview.php' ">View</button>
+
+            </div>
+            <!-- View7 -->
+            <div class = "V1" >
+                <p class = "T1"> 7)View Your Party Details<br></p>
+                <!-- Button7 -->
+                <button class = "but" type = "button"  onclick="window.location.href='pview.php'">View</button>
+            </div>
+            <!-- View8 -->
+            <div class = "V1" >
+                <p class = "T1"> 8)View Your Candidate Details<br></p>
+                <!-- Button7 -->
+                <button class = "but" type = "button" onclick="window.location.href='cview.php'">View</button>
+
+            </div>
+            <!-- View9 -->
+            <div class = "V1" >
+                <p class = "T1"> 8)View Your Voter Details<br></p>
+                <!-- Button7 -->
+                <button class = "but" type = "button" onclick="window.location.href='vview.php'">View</button>
+
+            </div>
         <center>
             <form>
                 <button class = "but1" type = "submit" formaction = "main.html">Go Back</button>
